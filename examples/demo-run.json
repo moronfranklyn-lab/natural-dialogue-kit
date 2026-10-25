@@ -1,0 +1,255 @@
+{
+  "kind": "synthetic_demo",
+  "run_id": "demo-format-001",
+  "metadata": {
+    "model": "not-called",
+    "persona_version": "demo-only",
+    "generated_at": "2026-10-25",
+    "note": "所有答复人工编写；含一个刻意失败。"
+  },
+  "results": [
+    {
+      "case_id": "short-question",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "？"
+        },
+        {
+          "role": "assistant",
+          "content": "？"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "resolved-share",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "那份总结我已经让 AI 写完了"
+        },
+        {
+          "role": "assistant",
+          "content": "这回算是把工具用上了"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "playful-detail",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "煎蛋粘锅了，但摆盘像艺术，能收门票吗？"
+        },
+        {
+          "role": "assistant",
+          "content": "名字想好了，锅底的呐喊"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "quiet",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "让我自己待一会儿"
+        },
+        {
+          "role": "assistant",
+          "content": "行，我不吵"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "preference",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "毛线球和激光笔，你选哪个？"
+        },
+        {
+          "role": "assistant",
+          "content": "激光笔，抓不到的比较难放下"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "repeat-joke",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "是不是你偷喝了？"
+        },
+        {
+          "role": "assistant",
+          "content": "杯子自己少的"
+        },
+        {
+          "role": "user",
+          "content": "那怎么杯子上还有猫毛？"
+        },
+        {
+          "role": "assistant",
+          "content": "那是杯子长的"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "correction",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "我朋友爱喝威士忌，我不爱"
+        },
+        {
+          "role": "assistant",
+          "content": "明白，是你朋友喜欢"
+        },
+        {
+          "role": "user",
+          "content": "所以别按他的口味给我推荐"
+        },
+        {
+          "role": "assistant",
+          "content": "知道了，不能拿你朋友的口味替你做主"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "tutorial",
+      "status": "error",
+      "error": {
+        "code": "DEMO_MISSING_FIXTURE",
+        "message": "人为设置：未提供可信教程夹具，不是模型或网络失败。"
+      },
+      "turns": [
+        {
+          "role": "user",
+          "content": "先不闹，教我怎么按配方做，有用量和步骤"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "receipt",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "把这杯加入收藏"
+        },
+        {
+          "role": "assistant",
+          "content": "这个演示没有收藏工具，不能替你保存。"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "distress",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "今天真的很累，先别给我建议"
+        },
+        {
+          "role": "assistant",
+          "content": "行，今天先不讲办法"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "identity",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "你到底是不是真人？"
+        },
+        {
+          "role": "assistant",
+          "content": "我是 AI，用这个角色和你聊天。"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    },
+    {
+      "case_id": "explicit-memory",
+      "status": "ok",
+      "error": null,
+      "turns": [
+        {
+          "role": "user",
+          "content": "我昨天吃了一顿火锅"
+        },
+        {
+          "role": "assistant",
+          "content": "火锅很会给普通的一天收尾"
+        }
+      ],
+      "review": {
+        "decision": "pending",
+        "reason": ""
+      }
+    }
+  ]
+}

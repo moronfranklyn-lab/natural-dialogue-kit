@@ -1,0 +1,4 @@
+interface:
+  display_name: "Natural Dialogue · 自然对话设计"
+  short_description: "从真实多轮案例定位模板化表达，设计人格并守住业务事实与执行边界"
+  default_prompt: "使用 $natural-dialogue 审查我的角色对话与提示词，提出最小改动并设计多轮评审。"
